@@ -21,7 +21,7 @@ Difficult to maintain, due to:
 - The necessity to keep the out-of-process dependencies operational
 - The greater number of collaborators involved, which inflates the test’s size
 
-## Pre-requisite for writing good integration tests: Types of out-of-process dependencies
+## Pre-requisite for learning how to write good integration tests: Types of out-of-process dependencies
 - Managed dependencies (out-of-process dependencies you have full control over)—These dependencies are only accessible through your application, e.g. db
 - Unmanaged dependencies (out-of-process dependencies you don’t have full control over)— Interactions with such dependencies are observable externally. Examples include an SMTP server and a message bus: both produce side effects visible to other applications.
 
